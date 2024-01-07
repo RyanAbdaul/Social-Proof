@@ -1,0 +1,422 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+/* Start Box  */
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.align-c {
+  align-items: center;
+}
+.align-s {
+  align-items: start;
+}
+.align-e {
+  align-items: end;
+}
+.warp {
+  flex-wrap: wrap;
+}
+.j-c {
+  justify-content: center;
+}
+.j-bet {
+  justify-content: space-between;
+}
+.j-ar {
+  justify-content: space-around;
+}
+.j-eve {
+  justify-content: space-evenly;
+}
+.direction-col {
+  flex-direction: column;
+} 
+.d-block {
+  display: block;
+}
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .direction-col-mobile {
+    flex-direction: column;
+  }
+}
+/* End Box  */
+
+/* Start Padding + Margin */
+.pl-0 {
+  padding-left: 0;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-30 {
+  padding: 20px;
+}
+.p-40 {
+  padding: 40px;
+}
+.p-50 {
+  padding: 50px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.mt-0 {
+  margin-top: 0px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.m-20 {
+  margin: 20px;
+}
+/* End Padding + Margin */
+
+/* Start Color  */
+.c-white {
+  color: #fff;
+}
+.c-888 {
+  color: #888;
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c- {
+  color: var(--green-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-black {
+  color: black !important;
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.bg-eee{
+  background-color: #eee;
+}
+.bg-white {
+  background-color: white;
+} 
+/* End Color  */
+
+/* Start Grid System */
+.d-grid {
+  display: grid;
+}
+.g-col-3 {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.g-col-4 {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+/* End Grid System */
+
+/* Start Position */
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.z-1 {
+  z-index: 1;
+}
+/* End Position */
+
+/* Start Font */
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-23 {
+  font-size: 23px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.txt-c {
+  text-align: center;
+}
+.txt-l {
+  text-align: left;
+}
+.txt-r {
+  text-align: right;
+}
+.txt-capitalize {
+  text-transform: capitalize;
+}
+.up-case {
+  text-transform: uppercase;
+}
+.fw-normal {
+  font-weight: normal;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
+/* End Font */
+
+/* Start Border */
+.border-none {
+  border: 0;
+}
+.border-ccc {
+  border: 1px solid #ccc;
+}
+.border-b-ccc {
+  border-bottom: 1px solid #ccc;
+}
+.border-b-eee {
+  border-bottom: 1px solid #eee;
+}
+.rad-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.circle {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* End Border */
+/* Start Widths & Heights */
+.w-full {
+  width: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+.w-40 {
+  width: 40px;
+}
+.h-40 {
+  height: 40px;
+}
+/* =============== */
+.h-full {
+  height: 100%;
+}
+/* End Widths & Heights */
+/* Start gaps */
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.gap-40 {
+  gap: 40px;
+}
+/* End gaps */
+/* over-flow */
+.o-hidden {
+  overflow: hidden;
+}
+/* over-flow */
+/* Start Component  */
+.btn-shape {
+  display: block;
+  width: fit-content;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .main-title */
+h2 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+h2 + p {
+  color: #888;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+/* .main-title  bg-white rad-10 p-20 block-mobile relative o-hidden*/
+.box-style {
+  background-color: white;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.light-hr {
+  height: 1px;
+  background-color: #eee;
+  border: 0;
+}
+/* End Component */
